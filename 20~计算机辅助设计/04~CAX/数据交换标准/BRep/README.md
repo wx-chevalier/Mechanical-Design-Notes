@@ -1,10 +1,10 @@
 # BRep
 
-![BRep 点线面](https://assets.ng-tech.icu/item/BREP_basic_pyramid_zhs.jpg)
+![BRep 点线面](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/BREP_basic_pyramid_zhs.jpg)
 
 边界表达（B-Rep）是目前工业界 CAD/CAM 领域最常见的实体建模方式之一。其基本理念是任何空间三维物体都可以看作是由一系列曲面包围而形成，而这些边界曲面则刚好可以用来表达三维实体。以上图中棱锥体为例，它由 5 个面（绿色）包围而成；每个面又由一些棱边（蓝色）包围；每条棱边有由两个顶点（红色）定义。因此该棱锥体的边界表达则由这些“面-边-顶点”关系的表格共同定义。
 
-![](https://assets.ng-tech.icu/item/BREP_convergent_facet_brep_zhs.jpg)
+![](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/BREP_convergent_facet_brep_zhs.jpg)
 
 传统意义上的 B-Rep 模型通常指代连续光滑的解析几何模型，即所谓传统 B-Rep 模型。随着 3D 扫描仪普及，面片模型（包含大量三角形的网格）也变得更加普遍。两种模型各有优劣，而因此经常需要进行互相转化；他们各自的优缺点和特性在上图表中列出。
 
@@ -14,7 +14,7 @@ BRep 建模，即 **B**oundary **Rep**resentation modeling，边界表示法建�
 
 BRep 对象的形状和轮廓不是由多边形或顶点这样的可简化对象构建的。相反，一个 BRep 对象由其表面（surface）之间的数学关系定义。
 
-![img](https://assets.ng-tech.icu/item/image-41.png)
+![img](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/image-41.png)
 
 例如，注意看上图中的保险杠，这个保险杠不是用较小的组件（如多边形）定义的。相反，它作为独立离散对象存在。保险杠的形状由其表面在 3D 空间中的位置和曲线（相对于 XYZ 轴）进行定义。
 
